@@ -64,7 +64,7 @@ export default function Pricing() {
           Simple pricing for every goal.
         </h2>
 
-        <div className="mt-12 grid gap-6 lg:grid-cols-3 lg:items-start">
+        <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3 lg:items-start">
           {plans.map((plan) => (
             <div
               key={plan.name}
