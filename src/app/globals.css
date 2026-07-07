@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@plugin "tailwindcss-animate";
+
+@theme inline {
+  --color-background: #0A0E1A;
+  --color-foreground: #f8fafc;
+  --color-card: #111827;
+  --color-card-foreground: #f8fafc;
+  --color-popover: #111827;
+  --color-popover-foreground: #f8fafc;
+  --color-primary: #6366f1;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #1e293b;
+  --color-secondary-foreground: #f8fafc;
+  --color-muted: #1e293b;
+  --color-muted-foreground: #94a3b8;
+  --color-accent: #1e293b;
+  --color-accent-foreground: #f8fafc;
+  --color-destructive: #ef4444;
+  --color-destructive-foreground: #f8fafc;
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-input: rgba(255, 255, 255, 0.1);
+  --color-ring: #6366f1;
+  --color-chart-1: #6366f1;
+  --color-chart-2: #10b981;
+  --color-chart-3: #8b5cf6;
+  --color-chart-4: #f59e0b;
+  --color-chart-5: #ef4444;
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --font-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
+}
