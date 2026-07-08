@@ -51,7 +51,7 @@ export default function Hero() {
 
         <h1 className="mx-auto max-w-4xl text-4xl font-bold tracking-tight text-slate-50 sm:text-5xl md:text-6xl lg:text-7xl">
           Build habits that{" "}
-          <span className="bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent underline decoration-from-font decoration-indigo-500/30 underline-offset-4">
+          <span className="bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
             actually stick.
           </span>
         </h1>
@@ -76,7 +76,7 @@ export default function Hero() {
             <h3 className="text-sm font-semibold text-slate-200">
               Today&apos;s progress
             </h3>
-            <span className="text-xs text-slate-500">Mon, Jul 7</span>
+            <span className="text-xs text-slate-500">Today</span>
           </div>
 
           <div className="space-y-3">

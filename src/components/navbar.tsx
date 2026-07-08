@@ -17,7 +17,7 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-white/5 bg-[#0A0E1A]/80 backdrop-blur-xl">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
-        <a href="#" className="flex items-center gap-2">
+        <a href="#" className="flex items-center gap-2 transition-opacity hover:opacity-80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0A0E1A] rounded-lg">
           <CheckCircle className="h-6 w-6 text-indigo-400" />
           <span className="text-lg font-semibold tracking-tight text-slate-50">
             Cadence
@@ -51,7 +51,7 @@ export default function Navbar() {
 
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="flex items-center md:hidden"
+          className="flex items-center md:hidden transition-colors hover:text-indigo-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0A0E1A] rounded-lg"
           aria-label={mobileOpen ? "Close menu" : "Open menu"}
         >
           {mobileOpen ? (
@@ -83,13 +83,13 @@ export default function Navbar() {
           <li className="mt-2">
             <a
               href="#"
-              className="block rounded-lg px-3 py-2 text-sm text-slate-400 transition-colors hover:bg-white/5 hover:text-slate-50"
+              className="block rounded-lg px-3 py-2 text-sm text-slate-400 transition-colors hover:bg-white/5 hover:text-slate-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500"
             >
               Log in
             </a>
           </li>
           <li>
-            <Button className="mt-1 w-full cursor-pointer bg-gradient-to-r from-blue-500 to-indigo-500 text-white shadow-lg shadow-indigo-500/25">
+            <Button className="mt-1 w-full cursor-pointer bg-gradient-to-r from-blue-500 to-indigo-500 text-white shadow-lg shadow-indigo-500/25 transition-all duration-300 hover:scale-[1.02] hover:shadow-indigo-500/40 focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0A0E1A]">
               Start free
             </Button>
           </li>
